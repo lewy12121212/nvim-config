@@ -11,6 +11,10 @@ local default_plugins = {
     end
   },
   {
+    "tpope/vim-fugitive",
+    lazy = false,
+  },
+  {
     "NvChad/base46",
     branch = "v2.0",
     build = function()
