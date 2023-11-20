@@ -4,6 +4,10 @@ local default_plugins = {
 
   "nvim-lua/plenary.nvim",
   {
+    "numToStr/Comment.nvim",
+    lazy = false,
+  },
+  {
     "github/copilot.vim",
     lazy = false,
     config = function ()

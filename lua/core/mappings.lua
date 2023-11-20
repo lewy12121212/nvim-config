@@ -467,7 +467,7 @@ M.gitsigns = {
 
 M.copilot = {
   i = {
-    ["<C-l>"] = {
+    ["<C-g>"] = {
       function()
         vim.fn.feedkeys(vim.fn['copilot#Accept'](), '')
       end,
