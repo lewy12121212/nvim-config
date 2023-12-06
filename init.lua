@@ -28,3 +28,5 @@ vim.api.nvim_exec([[
         autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NvimTreeToggle | endif
     augroup END
 ]], true)
+
+vim.api.nvim_set_option("clipboard","unnamedplus")
